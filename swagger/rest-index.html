@@ -85,7 +85,7 @@ body {
 				Core System and Data Model REST APIs
 			</v-toolbar-title>
 			<v-spacer></v-spacer>
-		    <v-menu open-on-hover offset-y>
+		    <v-menu open-on-hover offset-y :close-on-content-click="false">
 				<v-btn color="grey darken-2" dark slot="activator">
 					<v-icon left dark>fa-user</v-icon>
 					User: {{ username }}
@@ -100,7 +100,7 @@ body {
 					</v-card-text>
 				</v-card>
   			</v-menu>
-		    <v-menu open-on-hover offset-y>
+		    <v-menu open-on-hover offset-y :close-on-content-click="false">
 				<v-btn color="grey darken-2" dark slot="activator">
 					<v-icon left dark>fa-server</v-icon>
 					Tenant: {{ tenantId }}
