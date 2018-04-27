@@ -93,8 +93,8 @@ body {
 				<v-card>
 					<v-card-text>
 						<v-form>
-						  <v-text-field label="Username"  v-model="username" required></v-text-field>
-						  <v-text-field type="password" label="Password" v-model="password" required></v-text-field>
+						  <v-text-field label="Username"  v-model="txtUsername" required></v-text-field>
+						  <v-text-field type="password" label="Password" v-model="txtPassword" required></v-text-field>
 						  <v-btn block color="blue darken-2" dark @click="onUserUpdated">Update User</v-btn>
 						</v-form>
 					</v-card-text>
@@ -108,8 +108,8 @@ body {
 				<v-card>
 					<v-card-text>
 						<v-form>
-						  <v-text-field label="Tenant Id"  v-model="tenantId" required></v-text-field>
-						  <v-text-field type="password" label="Tenant Auth" v-model="tenantAuth" required></v-text-field>
+						  <v-text-field label="Tenant Id"  v-model="txtTenantId" required></v-text-field>
+						  <v-text-field type="password" label="Tenant Auth" v-model="txtTenantAuth" required></v-text-field>
 						  <v-btn block color="blue darken-2" dark @click="onTenantUpdated">Update Tenant</v-btn>
 						</v-form>
 					</v-card-text>
